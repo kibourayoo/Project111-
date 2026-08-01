@@ -3,7 +3,7 @@
     "name": "شاشة فارغة بلون محدد",
     "slug": "blank-screen-app",
     "scheme": "blank-screen-app",
-    "version": "1.0.539",
+    "version": "1.0.540",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
