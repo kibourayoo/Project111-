@@ -55,3 +55,4 @@ history/*.json
 /tasks
 package.json.[0-9]*
 .native-wind-cache
+historical_context.txt
