@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "شاشة فارغة بلون محدد",
+    "slug": "blank-screen-app",
+    "scheme": "blank-screen-app",
+    "version": "1.0.538",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FDFBF7",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1",
+      "bundleIdentifier": "com.miaoda.appctfnabn3fw8x"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "predictiveBackGestureEnabled": false,
+      "versionCode": 1,
+      "package": "com.miaoda.appctfnabn3fw8x"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-sqlite",
+      "expo-font",
+      "expo-system-ui",
+      "expo-image",
+      "expo-file-system",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FDFBF7",
+          "image": "./assets/icon.png",
+          "imageWidth": 160,
+          "resizeMode": "contain"
+        }
+      ],
+      "@react-native-async-storage/expo-with-async-storage",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "يحتاج التطبيق إلى موقعك لحساب مواقيت الصلاة واتجاه القبلة بدقة."
+        }
+      ],
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "يحتاج التطبيق إلى المستشعرات لتحديد اتجاه القبلة."
+        }
+      ],
+      "expo-audio"
+    ],
+    "router": {
+      "root": "src"
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
