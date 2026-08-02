@@ -104,9 +104,10 @@ const S = StyleSheet.create({
     borderWidth: 0.8,
     borderColor: BORDER,
     paddingHorizontal: 12,
-    paddingTop: 6,
+    paddingTop: 14,
     paddingBottom: 14,
-    justifyContent: 'space-evenly',
+    justifyContent: 'flex-start',
+    gap: 0,
   },
   /* صف LTR — الافتراضي (الصف الأول) */
   row: {
